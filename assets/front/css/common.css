@@ -88,6 +88,7 @@
   text-align: right;
   margin-top: -1px;
 }
+
 .mainmenu-bb li .active {
   color: rgba(255, 255, 255, 0.808) !important;
 }
@@ -564,6 +565,7 @@ input.form-control.card-elements {
 .mainmenu-bb {
   border-bottom: 1px solid rgba(0, 0, 0, 0.07) !important;
   background-color: #5fa30f;
+  
 }
 
 .mainmenu-bb li{
