@@ -22,6 +22,7 @@
                                     <li>
                                         <div class="content">
                                             
+                                            
                                             <?php if(!empty($cat) && $cat->id == $element->id && !empty($cat->subs)): ?>
                                                 <?php $__currentLoopData = $cat->subs; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $key => $subelement): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
                                                     <div class="sub-content open">

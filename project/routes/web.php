@@ -803,7 +803,6 @@ Route::prefix('admin')->group(function () {
 
     Route::get('/team', 'Admin\StaffController@create')->name('admin-staff-create');
 
-
     //------------ ADMIN STAFF SECTION ENDS------------
 
     //------------ ADMIN SUBSCRIBERS SECTION ------------
