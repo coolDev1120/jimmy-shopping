@@ -196,7 +196,8 @@
 }
 
 #sidebar li a i {
-	/* width: 30px !important; */
+	width: 30px !important;
+	display: inline-block !important;
 	margin-right: 10px !important;
 }
 
